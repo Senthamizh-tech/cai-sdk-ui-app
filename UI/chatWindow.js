@@ -2078,7 +2078,7 @@
             chatWindow.prototype.verbiageBuilder = function () {
                 var verbiageBuilderResp = {};
                 $.ajax({
-                    url: "http://localhost:3000/api/users/sts/verbiagebuilder",
+                    url: "https://cai-sdk-authentication-app.onrender.com/api/users/sts/verbiagebuilder",
                     type: 'get',
                     dataType: 'json',
                     async: false,
